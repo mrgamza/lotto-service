@@ -1,0 +1,8 @@
+version: '3'
+services:
+  lotto-service:
+    container_name: lotto-service
+    image: lotto-service
+    restart: always
+    ports:
+      - 10300:8000
